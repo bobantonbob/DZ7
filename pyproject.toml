@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dz7-1"
+version = "0.1.0"
+description = ""
+authors = ["bobantonbob <130400459+bobantonbob@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "dz7"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.27"
+poetry = "^1.7.1"
+psycopg2 = "^2.9.9"
+alembic = "^1.13.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
